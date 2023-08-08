@@ -1,0 +1,55 @@
+h1
+{
+  
+font-family: 'Pacifico', cursive;
+}
+body{
+    background-color: #f7ecde;
+}
+i{
+    font-size: x-large;
+}
+.one_p
+{
+    color: #4cab67;
+}
+.one_c
+{
+    color:#b3ac49 ;
+}
+.yyu
+{
+  color:#92af5a;
+}
+hr{
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+}
+h1::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 25%;
+left: 0;
+bottom: 10px;
+background-color: #fec260;
+transition: height 350ms;
+z-index: -1;
+}
+h1:hover h1::before{
+    height: 200px;
+}
+@media screen and (min-width:200px) and (max-width:500px)
+{
+   body
+   {
+    padding-left: 3px;
+    padding-right: 3px;
+   }
+   .ty
+   {
+    padding-left: 3px;
+    padding-right: 3px;
+   }
+}
